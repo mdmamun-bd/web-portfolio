@@ -53,22 +53,19 @@ h1{
     
     height: 500px;
     width: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
+   
+
 }
-.middle-width {
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center;
+.middle-width{
     width: 40%;
     float: left;
     margin-left: 6%;
     padding: 2%;
-
 }
-
+.middle-width img{
+    margin-top: 5%;
+    width: 100%;
+}
 .middle-width a{
     background: linear-gradient(45deg,tomato,lightsalmon);
     text-decoration: none;
@@ -88,8 +85,8 @@ h1{
 #junior1{
 
     position: absolute;
-    width: 520px;
-    height: 420px;
+    width: 40%;
+    height: 440px;
     
     background:#F0DDEF;
     border-radius: 20px;
@@ -99,8 +96,8 @@ h1{
 #junior{
 
 position: absolute;
-width: 520px;
-height: 420px;
+width: 40%;
+height: 440px;
 
 background: #F6F0FD;
 border-radius: 20px;
