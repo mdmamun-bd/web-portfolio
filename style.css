@@ -4,10 +4,7 @@ body{
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
-section{
-    height: 500px;
-    padding-bottom: 20px;
-}
+
 .top-part{
     background-image: url("images/top-banner.png");
     height: 500px;
@@ -16,6 +13,13 @@ section{
     background-repeat: no-repeat;
     object-fit: cover;
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    height: 600px;
+    padding: 2%;
+}
 h1{
     font-size: 50px;
     
@@ -23,12 +27,7 @@ h1{
 .high{
     color: yellowgreen;
 }
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 6%;
-    padding: 2%;
-}
+
 .half-width img{
     margin-top: 5%;
     width: 100%;
@@ -51,7 +50,7 @@ h1{
 }
 .second-part{
     
-    height: 500px;
+    height: 600px;
     width: auto;
    
 
@@ -63,7 +62,7 @@ h1{
     padding: 2%;
 }
 .middle-width img{
-    margin-top: 5%;
+    
     width: 100%;
 }
 .middle-width a{
@@ -78,16 +77,20 @@ h1{
     font-weight: bold;
 }
 .last-part{
-    height: 500px;
+    height: 600px;
     width: auto;
     
+}
+.last-width{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding: 2%;
 }
 #junior1{
 
     position: absolute;
     width: 40%;
-    height: 440px;
-    
     background:#F0DDEF;
     border-radius: 20px;
     border-left:5px solid rgba(77, 22, 68, 0.86);
@@ -97,8 +100,6 @@ h1{
 
 position: absolute;
 width: 40%;
-height: 440px;
-
 background: #F6F0FD;
 border-radius: 20px;
 border-left:5px solid rgba(77, 22, 68, 0.86);
