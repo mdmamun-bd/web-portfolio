@@ -95,7 +95,7 @@ h1{
 
     position: absolute;
     width: 40%;
-    height: 470px;
+   
     background:#F0DDEF;
     border-radius: 20px;
     border-left:5px solid rgba(77, 22, 68, 0.86);
@@ -105,7 +105,7 @@ h1{
 
 position: absolute;
 width: 40%;
-height: 470px;
+
 background: #F6F0FD;
 border-radius: 20px;
 border-left:5px solid rgba(77, 22, 68, 0.86);
